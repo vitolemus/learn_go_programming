@@ -34,11 +34,19 @@ func main() {
 		animals["donkey"] = "burro"
 	}
 
-	fmt.Println(animals) // Devuelve vacío y false
+	fmt.Println(animals) // agrega donkey al map
 	/*
 		if consulta, ok := animals["donkey"]; !ok{
 			animals["donkey"] = "burro"
 		}
 	*/
+
+	cars := map[int]string{
+		0: "chevrolet",
+		1: "ford",
+		2: "chrysler",
+	}
+
+	fmt.Println(cars)
 
 }
